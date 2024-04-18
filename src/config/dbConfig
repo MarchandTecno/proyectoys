@@ -1,0 +1,11 @@
+// src/config/dbConfig.js
+const mysql = require('mysql');
+
+const connection = mysql.createConnection({
+  host: '35.226.2.239',
+  user: 'marchand',
+  password: 'sofy123',
+  database: 'proyectoysBD'
+});
+
+module.exports = connection;
